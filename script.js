@@ -178,7 +178,7 @@ function initialize() {
 	// Get receiver metadata, reconfigure using it, then continue
 	// with initialization
 	$.ajax({
-		url: 'data/receiver.json',
+		url: '../radar_data/receiver.json',
 		timeout: 5000,
 		cache: false,
 		dataType: 'json'
@@ -222,7 +222,7 @@ function load_history_items() {
 	// (usually it is 2-4 concurrent requests)
 	for (var i = 0; i < PositionHistorySize; i++) {
 		$.ajax({
-			url: 'data/history_' + i + '.json',
+			url: '../radar_data/history_' + i + '.json',
 			timeout: 5000,
 			cache: false,
 			dataType: 'json'
