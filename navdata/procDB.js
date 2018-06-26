@@ -1,4 +1,5 @@
 function registerProcedures() {
+	ProcDB.length = 0;
 	registerStar();
 	registerSid();
 }

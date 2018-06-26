@@ -32,9 +32,9 @@ SiteName    = "My Radar Site"; // tooltip of the marker
 
 // -- Marker settings -------------------------------------
 // The default marker color
-MarkerColor	  = "rgb(221, 221, 221)";
-SelectedColor = "rgb(215, 223, 86)";
-StaleColor = "rgb(119, 119, 119)";
+MarkerIcon	  = 'images/ac_norm.svg';
+SelectedIcon = 'images/ac_sel.svg';
+StaleIcon = 'images/ac_old.svg';
 
 
 SiteCircles = false; // true to show circles (only shown if the center marker is shown)

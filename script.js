@@ -8,9 +8,9 @@ var SelectedPlane = null;
 var FollowSelected = false;
 
 var SpecialSquawks = {
-        '7500' : { cssClass: 'squawk7500', markerColor: 'rgb(255, 85, 85)', text: 'Aircraft Hijacking' },
-        '7600' : { cssClass: 'squawk7600', markerColor: 'rgb(0, 255, 255)', text: 'Radio Failure' },
-        '7700' : { cssClass: 'squawk7700', markerColor: 'rgb(255, 255, 0)', text: 'General Emergency' }
+        '7500' : { cssClass: 'squawk7500', MarkerIcon: 'rgb(255, 85, 85)', text: 'Aircraft Hijacking' },
+        '7600' : { cssClass: 'squawk7600', MarkerIcon: 'rgb(0, 255, 255)', text: 'Radio Failure' },
+        '7700' : { cssClass: 'squawk7700', MarkerIcon: 'rgb(255, 255, 0)', text: 'General Emergency' }
 };
 
 // Get current map settings
@@ -482,7 +482,7 @@ function format_distance_long(dist) {
 
 // p as a LatLng
 function format_latlng(p) {
-        return p.lat().toFixed(3) + DEGREES + "," + NBSP + p.lng().toFixed(3) + DEGREES;
+        return p.lat.toFixed(3) + DEGREES + "," + NBSP + p.lng.toFixed(3) + DEGREES;
 }
 
 // Refresh the detail window about the plane
