@@ -24,9 +24,9 @@ function extendedPulse() {
 
 function updateClock() {
 	var date = new Date();
-	var hours = date.getUTCHours().toString().length < 2 ? "0"+date.getUTCHours() : date.getUTCHours();
-	var minutes = date.getUTCMinutes().toString().length < 2 ? "0"+date.getUTCMinutes() : date.getUTCMinutes();
-	var seconds = date.getUTCSeconds().toString().length < 2 ? "0"+date.getUTCSeconds() : date.getUTCSeconds();
+	var hours = date.getUTCHours().toString().length < 2 ? "0" + date.getUTCHours() : date.getUTCHours();
+	var minutes = date.getUTCMinutes().toString().length < 2 ? "0" + date.getUTCMinutes() : date.getUTCMinutes();
+	var seconds = date.getUTCSeconds().toString().length < 2 ? "0" + date.getUTCSeconds() : date.getUTCSeconds();
 	document.getElementById("utcClock").innerHTML = hours + ":" + minutes + ":" + seconds + " UTC";
 }
 
@@ -38,7 +38,7 @@ function updateRunway() {
 function loadMapData() {
 	registerNavaidsFixes();
 	registerProcedures();
-	
+
 	loadAirspaces();
 	loadGeography();
 	loadNavdata();

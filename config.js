@@ -21,25 +21,24 @@ Metric = false; // true or false
 DefaultCenterLat = 46.253917;
 DefaultCenterLon = 6.132222;
 // The google maps zoom level, 0 - 16, lower is further out
-DefaultZoomLvl   = 9;
+DefaultZoomLvl = 9;
 
-SiteShow    = true;           // true to show distances from site
-SiteDisplay = false;           // true to display site location
-SiteLat     = 46.332040;            // position of the marker
-SiteLon     = 6.057147;
-SiteName    = "My Radar Site"; // tooltip of the marker
+SiteShow = true; // true to show distances from site
+SiteDisplay = false; // true to display site location
+SiteLat = 46.332040; // position of the marker
+SiteLon = 6.057147;
+SiteName = "My Radar Site"; // tooltip of the marker
 
 
 // -- Marker settings -------------------------------------
 // The default marker color
-MarkerIcon	  = 'images/ac_norm.svg';
+MarkerIcon = 'images/ac_norm.svg';
 SelectedIcon = 'images/ac_sel.svg';
 StaleIcon = 'images/ac_old.svg';
 
-
 SiteCircles = false; // true to show circles (only shown if the center marker is shown)
 // In nautical miles or km (depending settings value 'Metric')
-SiteCirclesDistances = new Array(50,100,150,200);
+SiteCirclesDistances = new Array(50, 100, 150, 200);
 
 // Show the clocks at the top of the righthand pane? You can disable the clocks if you want here
 ShowClocks = true;

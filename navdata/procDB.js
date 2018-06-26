@@ -5,10 +5,10 @@ function registerProcedures() {
 }
 
 function registerStar() {
-	
+
 	//STAR
 	var localDb = [
-	
+
 		// LUSAR - LIRKO
 		{
 			path: [
@@ -19,7 +19,7 @@ function registerStar() {
 			runway: 99,
 			type: "star"
 		},
-		
+
 		// DJL - LIRKO
 		{
 			path: [
@@ -30,7 +30,7 @@ function registerStar() {
 			runway: 99,
 			type: "star"
 		},
-		
+
 		// AKITO - LIRKO
 		{
 			path: [
@@ -42,7 +42,7 @@ function registerStar() {
 			runway: 99,
 			type: "star"
 		},
-		
+
 		// LIRKO - SOVAD
 		{
 			path: [
@@ -53,7 +53,7 @@ function registerStar() {
 			runway: 99,
 			type: "star"
 		},
-		
+
 		// BELUS - CBY
 		{
 			path: [
@@ -64,7 +64,7 @@ function registerStar() {
 			runway: 99,
 			type: "star"
 		},
-		
+
 		// KINES - GOLEB
 		{
 			path: [
@@ -76,7 +76,7 @@ function registerStar() {
 			runway: 99,
 			type: "star"
 		},
-		
+
 		// BANKO - GOLEB
 		{
 			path: [
@@ -87,7 +87,7 @@ function registerStar() {
 			runway: 99,
 			type: "star"
 		},
-		
+
 		// GOLEB - BIVLO
 		{
 			path: [
@@ -99,7 +99,7 @@ function registerStar() {
 			runway: 99,
 			type: "star"
 		},
-		
+
 		// BENOT - VADAR
 		{
 			path: [
@@ -110,7 +110,7 @@ function registerStar() {
 			runway: 99,
 			type: "star"
 		},
-		
+
 		// ULMES - VADAR
 		{
 			path: [
@@ -121,7 +121,7 @@ function registerStar() {
 			runway: 99,
 			type: "star"
 		},
-		
+
 		// NEMOS - VEROX - SPR
 		{
 			path: [
@@ -132,7 +132,7 @@ function registerStar() {
 			runway: 23,
 			type: "star"
 		},
-		
+
 		// VADAR - SPR
 		{
 			path: [
@@ -142,7 +142,7 @@ function registerStar() {
 			runway: 23,
 			type: "star"
 		},
-		
+
 		// NEMOS - GG514
 		{
 			path: [
@@ -152,7 +152,7 @@ function registerStar() {
 			runway: 05,
 			type: "star"
 		},
-		
+
 		// VADAR - GG514
 		{
 			path: [
@@ -162,7 +162,7 @@ function registerStar() {
 			runway: 05,
 			type: "star"
 		},
-		
+
 		// VADAR - GG512
 		{
 			path: [
@@ -172,7 +172,7 @@ function registerStar() {
 			runway: 05,
 			type: "star"
 		},
-		
+
 		// CBY - GG502
 		{
 			path: [
@@ -182,7 +182,7 @@ function registerStar() {
 			runway: 23,
 			type: "star"
 		},
-		
+
 		// CBY - INDIS
 		{
 			path: [
@@ -193,7 +193,7 @@ function registerStar() {
 			type: "star"
 		},
 	];
-	
+
 	var tempProc;
 	for (var i = 0; i < localDb.length; ++i) {
 		tempProc = localDb[i];
@@ -202,10 +202,10 @@ function registerStar() {
 }
 
 function registerSid() {
-	
+
 	//STAR
 	var localDb = [
-	
+
 		// ESAPI - MEDAM
 		{
 			path: [
@@ -216,7 +216,7 @@ function registerSid() {
 			runway: 99,
 			type: "sid"
 		},
-		
+
 		// ODIKI - ROCCA
 		{
 			path: [
@@ -226,7 +226,7 @@ function registerSid() {
 			runway: 99,
 			type: "sid"
 		},
-		
+
 		// GG605 - ODIKI
 		{
 			path: [
@@ -236,7 +236,7 @@ function registerSid() {
 			runway: 05,
 			type: "sid"
 		},
-		
+
 		// GG604 - ESAPI
 		{
 			path: [
@@ -246,31 +246,37 @@ function registerSid() {
 			runway: 05,
 			type: "sid"
 		},
-		
+
 		// PAS R131D6 - ODIKI
 		{
-			path: [
-				{lat: 46.095695, lng: 6.105933},
+			path: [{
+					lat: 46.095695,
+					lng: 6.105933
+				},
 				PointDB["ODIKI"].position
 			],
 			runway: 23,
 			type: "sid"
 		},
-		
+
 		// PAS R141D6 - ESAPI
 		{
-			path: [
-				{lat: 46.083121, lng: 6.085777},
+			path: [{
+					lat: 46.083121,
+					lng: 6.085777
+				},
 				PointDB["ESAPI"].position
 			],
 			runway: 23,
 			type: "sid"
 		},
-		
+
 		// PAS R181D8 - RUMIL - BALSI
 		{
-			path: [
-				{lat: 46.030421, lng: 5.991704},
+			path: [{
+					lat: 46.030421,
+					lng: 5.991704
+				},
 				PointDB["RUMIL"].position,
 				PointDB["BEVEN"].position,
 				PointDB["BALSI"].position
@@ -278,11 +284,13 @@ function registerSid() {
 			runway: 99,
 			type: "sid"
 		},
-		
+
 		// PAS R235D6 - DEPUL - LSE
 		{
-			path: [
-				{lat: 46.106901, lng: 5.881401},
+			path: [{
+					lat: 46.106901,
+					lng: 5.881401
+				},
 				PointDB["ARGIS"].position,
 				PointDB["DEPUL"].position,
 				PointDB["LSE"].position
@@ -290,7 +298,7 @@ function registerSid() {
 			runway: 99,
 			type: "sid"
 		},
-		
+
 		// CBY - BELUS
 		{
 			path: [
@@ -300,7 +308,7 @@ function registerSid() {
 			runway: 99,
 			type: "sid"
 		},
-		
+
 		// R049CBY - CBY
 		{
 			path: [
@@ -310,28 +318,32 @@ function registerSid() {
 			runway: 05,
 			type: "sid"
 		},
-		
+
 		// PAS R210D6 - CBY
 		{
-			path: [
-				{lat: 46.077877, lng: 5.925712},
+			path: [{
+					lat: 46.077877,
+					lng: 5.925712
+				},
 				PointDB["CBY"].position
 			],
 			runway: 23,
 			type: "sid"
 		},
-		
+
 		// DIPIR 5A
 		{
-			path: [
-				{lat: 46.295404, lng: 5.894789},
+			path: [{
+					lat: 46.295404,
+					lng: 5.894789
+				},
 				PointDB["KELUK"].position,
 				PointDB["DIPIR"].position
 			],
 			runway: 23,
 			type: "sid"
 		},
-		
+
 		// GG603 - KONIL - SOSAL
 		{
 			path: [
@@ -344,7 +356,7 @@ function registerSid() {
 			runway: 23,
 			type: "sid"
 		},
-		
+
 		// GG602 - MOLUS - SOSAL
 		{
 			path: [
@@ -356,7 +368,7 @@ function registerSid() {
 			runway: 23,
 			type: "sid"
 		},
-		
+
 		// PETAL - MOLUS - SOSAL
 		{
 			path: [
@@ -367,22 +379,26 @@ function registerSid() {
 			runway: 05,
 			type: "sid"
 		},
-		
+
 		// DJL R129 - SIROD
 		{
-			path: [
-				{lat: 46.556755, lng: 6.302499},
+			path: [{
+					lat: 46.556755,
+					lng: 6.302499
+				},
 				PointDB["KOVIM"].position,
 				PointDB["SIROD"].position
 			],
 			runway: 05,
 			type: "sid"
 		},
-		
+
 		// SPR R330 - ARBOS
 		{
-			path: [
-				{lat: 46.589486, lng: 6.350132},
+			path: [{
+					lat: 46.589486,
+					lng: 6.350132
+				},
 				PointDB["LEGVO"].position,
 				PointDB["ARBOS"].position
 			],
@@ -390,7 +406,7 @@ function registerSid() {
 			type: "sid"
 		},
 	];
-	
+
 	var tempProc;
 	for (var i = 0; i < localDb.length; ++i) {
 		tempProc = localDb[i];
