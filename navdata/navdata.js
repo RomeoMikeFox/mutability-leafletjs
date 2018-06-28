@@ -40,6 +40,12 @@ var ndb_icon = new L.icon({
 		iconAnchor: [4, 4]
 	});
 
+var apt_icon = new L.icon({
+		iconUrl: 'images/apt.svg',
+		iconSize: [16, 16],
+		iconAnchor: [8, 8]
+	});
+
 var starLineOptions = {
 	dashArray: '10,5',
 	color: '#597a56',
@@ -93,6 +99,10 @@ function loadPointsDB() {
 				marker_icon = ndb_icon;
 				break;
 
+			case "apt":
+				marker_icon = apt_icon;
+				break;
+
 			default:
 				marker_icon = fix_icon;
 				break;
@@ -100,7 +110,8 @@ function loadPointsDB() {
 
 			new L.marker(point.position, {
 				icon: marker_icon,
-				title: point.title
+				title: point.title,
+				rotationAngle: point.qfu
 			}).addTo(LeafletMap);
 		}
 

@@ -362,6 +362,41 @@ function registerNavaidsFixes() {
 			title: 'ARBOS',
 			runway: 05
 		},
+
+		{
+			position: {lat: 46.302500, lng: 5.879722},
+			type: "fix",
+			title: 'MILPA',
+			runway: 99
+		},
+
+		{
+			position: {lat: 46.230028, lng: 5.576028},
+			type: "fix",
+			title: 'KUDUP',
+			runway: 99
+		},
+
+		{
+			position: {lat: 46.182556, lng: 5.379500},
+			type: "fix",
+			title: 'AMKEN',
+			runway: 99
+		},
+
+		{
+			position: {lat: 46.729444, lng: 6.528889},
+			type: "fix",
+			title: 'LORBU',
+			runway: 99
+		},
+
+		{
+			position: {lat: 46.908667, lng: 6.585028},
+			type: "fix",
+			title: 'FLORY',
+			runway: 99
+		},
 		
 		// Waypoints
 		
@@ -525,6 +560,94 @@ function registerNavaidsFixes() {
 			position: {lat: 47.270778, lng: 5.097333},
 			type: "vordme",
 			title: 'DJL',
+			runway: 99
+		},
+
+		{
+			position: {lat: 47.083667, lng: 6.793889},
+			type: "ndb",
+			title: 'LPS',
+			runway: 99
+		},
+
+		{
+			position: {lat: 45.861639, lng: 6.020333},
+			type: "ndb",
+			title: 'AT',
+			runway: 99
+		},
+		
+		// Airports
+		
+		{
+			position: {lat: 46.191944, lng: 6.268333},
+			type: "apt",
+			title: 'LFLI',
+			qfu: 116,
+			runway: 99,
+		},
+
+		{
+			position: {lat: 46.545278, lng: 6.616667},
+			type: "apt",
+			title: 'LSGL',
+			qfu: 360,
+			runway: 99
+		},
+
+		{
+			position: {lat: 45.639167, lng: 5.880000},
+			type: "apt",
+			title: 'LFLB',
+			qfu: 355,
+			runway: 99
+		},
+
+		{
+			position: {lat: 45.930833, lng: 6.106389},
+			type: "apt",
+			title: 'LFLP',
+			qfu: 037,
+			runway: 99
+		},
+
+		{
+			position: {lat: 45.725556, lng: 5.081111},
+			type: "apt",
+			title: 'LFLL',
+			qfu: 354,
+			runway: 99
+		},
+
+		{
+			position: {lat: 46.278611, lng: 5.666389},
+			type: "apt",
+			title: 'LFLK',
+			qfu: 036,
+			runway: 99
+		},
+
+		{
+			position: {lat: 46.123333, lng: 5.804722},
+			type: "apt",
+			title: 'LFHN',
+			qfu: 004,
+			runway: 99
+		},
+
+		{
+			position: {lat: 45.560556, lng: 5.975833},
+			type: "apt",
+			title: 'LFLE',
+			qfu: 143,
+			runway: 99
+		},
+
+		{
+			position: {lat: 45.363056, lng: 5.332778},
+			type: "apt",
+			title: 'LFLS',
+			qfu: 089,
 			runway: 99
 		},
 	];
