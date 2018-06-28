@@ -49,6 +49,9 @@ PageName = "RMF - 1090MHz Radar";
 //Type of aircraft icon
 ShowAircraftIcon = true;
 
+//History positions step (in sec)
+HistoryStep = 3;
+
 // Runway in use
 DefaultRunwayInUse = 23;
 RunwayInUse = 0;

@@ -50,7 +50,6 @@ function PlaneObject(icao) {
 }
 
 // Appends data to the running track so we can get a visual tail on the plane
-// Only useful for a long running browser session.
 PlaneObject.prototype.updateTrack = function (estimate_time) {
 	var here = this.position;
 	if (!here)
@@ -140,9 +139,9 @@ PlaneObject.prototype.updateTrack = function (estimate_time) {
 	}
 
 	// Add more data to the existing track.
-	// We only retain some historical points, at 5+ second intervals,
+	// We only retain some historical points, at %HistoryStep% second intervals,
 	// plus the most recent point
-	if (this.last_position_time - lastseg.tail_update >= 5) {
+	if (this.last_position_time - lastseg.tail_update >= HistoryStep) {
 		// enough time has elapsed; retain the last point and add a new one
 		//console.log(this.icao + " retain last point");
 		lastseg.track.push(here);
@@ -329,6 +328,10 @@ PlaneObject.prototype.updateLines = function () {
 			}
 		}
 	}
+	
+	// Update the last segment with the new last position
+	var last_seg = this.track_linesegs[this.track_linesegs.length - 1];
+	last_seg.line.setLatLngs(last_seg.track);
 };
 
 PlaneObject.prototype.destroy = function () {
