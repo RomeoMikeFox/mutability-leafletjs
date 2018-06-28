@@ -791,8 +791,10 @@ function selectPlaneByHex(hex, autofollow) {
 	// If SelectedPlane has something in it, clear out the selected
 	if (SelectedPlane != null) {
 		Planes[SelectedPlane].selected = false;
-		Planes[SelectedPlane].clearLines();
-		Planes[SelectedPlane].updateMarker();
+		if(Planes[SelectedPlane].position !== null) {
+			Planes[SelectedPlane].clearLines();
+			Planes[SelectedPlane].updateMarker();
+		}
 		$(Planes[SelectedPlane].tr).removeClass("selected");
 	}
 
@@ -805,8 +807,10 @@ function selectPlaneByHex(hex, autofollow) {
 		// Assign the new selected
 		SelectedPlane = hex;
 		Planes[SelectedPlane].selected = true;
-		Planes[SelectedPlane].updateLines();
-		Planes[SelectedPlane].updateMarker();
+		if(Planes[SelectedPlane].position !== null) {
+			Planes[SelectedPlane].updateLines();
+			Planes[SelectedPlane].updateMarker();
+		}
 		$(Planes[SelectedPlane].tr).addClass("selected");
 	} else {
 		SelectedPlane = null;
