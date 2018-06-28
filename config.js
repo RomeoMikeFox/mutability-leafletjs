@@ -50,4 +50,5 @@ PageName = "RMF - 1090MHz Radar";
 ShowAircraftIcon = true;
 
 // Runway in use
-RunwayInUse = 23;
+DefaultRunwayInUse = 23;
+RunwayInUse = 0;

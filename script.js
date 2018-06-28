@@ -313,6 +313,7 @@ function initialize_map() {
 	CenterLat = Number(localStorage['CenterLat']) || DefaultCenterLat;
 	CenterLon = Number(localStorage['CenterLon']) || DefaultCenterLon;
 	ZoomLvl = Number(localStorage['ZoomLvl']) || DefaultZoomLvl;
+	RunwayInUse = Number(localStorage['Runway']) || DefaultRunwayInUse;
 
 	// Set SitePosition, initialize sorting
 	if (SiteShow && (typeof SiteLat !== 'undefined') && (typeof SiteLon !== 'undefined')) {
@@ -843,6 +844,7 @@ function resetMap() {
 
 function switchRunway() {
 	RunwayInUse = RunwayInUse == 5 ? 23 : 5;
+	localStorage['Runway'] = RunwayInUse;
 	LeafletMap.remove();
 	initialize_map();
 	for (var hex in Planes) {
