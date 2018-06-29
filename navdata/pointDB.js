@@ -576,6 +576,13 @@ function registerNavaidsFixes() {
 			title: 'AT',
 			runway: 99
 		},
+
+		{
+			position: {lat: 46.215500, lng: 7.288778},
+			type: "vordme",
+			title: 'SIO',
+			runway: 99
+		},
 		
 		// Airports
 		
@@ -591,7 +598,15 @@ function registerNavaidsFixes() {
 			position: {lat: 46.545278, lng: 6.616667},
 			type: "apt",
 			title: 'LSGL',
-			qfu: 360,
+			qfu: 002,
+			runway: 99
+		},
+
+		{
+			position: {lat: 46.406389, lng: 6.258056},
+			type: "apt",
+			title: 'LSGP',
+			qfu: 041,
 			runway: 99
 		},
 
@@ -628,14 +643,6 @@ function registerNavaidsFixes() {
 		},
 
 		{
-			position: {lat: 46.123333, lng: 5.804722},
-			type: "apt",
-			title: 'LFHN',
-			qfu: 004,
-			runway: 99
-		},
-
-		{
 			position: {lat: 45.560556, lng: 5.975833},
 			type: "apt",
 			title: 'LFLE',
@@ -648,6 +655,14 @@ function registerNavaidsFixes() {
 			type: "apt",
 			title: 'LFLS',
 			qfu: 089,
+			runway: 99
+		},
+
+		{
+			position: {lat: 46.219167, lng: 7.326944},
+			type: "apt",
+			title: 'LSGS',
+			qfu: 072,
 			runway: 99
 		},
 	];
