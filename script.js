@@ -329,7 +329,12 @@ function initialize_map() {
 	// Define the Radar Map
 	var mapOptions = {
 		center: new L.latLng(CenterLat, CenterLon),
-		zoom: ZoomLvl
+		zoom: ZoomLvl,
+		fullscreenControl: true,
+		fullscreenControlOptions: { // optional
+			title:"Show the map fullscreen",
+			titleCancel:"Exit fullscreen mode"
+		}
 	};
 
 	LeafletMap = new L.map(document.getElementById("map_canvas"), mapOptions);
