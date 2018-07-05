@@ -340,7 +340,6 @@ function initialize_map() {
 	LeafletMap = new L.map(document.getElementById("map_canvas"), mapOptions);
 
 	// Listeners for newly created Map
-
 	LeafletMap.on('moveend', function () {
 		localStorage['CenterLat'] = LeafletMap.getCenter().lat;
 		localStorage['CenterLon'] = LeafletMap.getCenter().lng;
@@ -348,6 +347,14 @@ function initialize_map() {
 
 	LeafletMap.on('zoomend', function () {
 		localStorage['ZoomLvl'] = LeafletMap.getZoom();
+	});
+	
+	LeafletMap.on('enterFullscreen', function(){
+		document.getElementById("map_canvas").style.margin = "auto";
+	});
+
+	LeafletMap.on('exitFullscreen', function(){
+		document.getElementById("map_canvas").style.margin = "";
 	});
 
 	// Add home marker if requested
