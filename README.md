@@ -15,7 +15,7 @@ You need an installed copy of dump1090-mutability.
 Go to the html files location (default location)
 
 ```
-cd /usr/share/dump1090-mutability/public_html
+cd /usr/share/dump1090-mutability/html
 ```
 
 Either clone the directory or remove everything inside
@@ -25,7 +25,7 @@ rm -Rf ./*
 
 And then put in the files from this project, either using git (might be useful to stay updated easily), or via an old copy command
 ```
-cp -r ~/download/mutability-leaflet/* /usr/share/dump1090-mutability/public_html
+cp -r ~/download/mutability-leaflet/* /usr/share/dump1090-mutability/html
 ```
 
 Now you're done!
