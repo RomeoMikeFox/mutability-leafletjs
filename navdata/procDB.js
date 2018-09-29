@@ -129,7 +129,7 @@ function registerStar() {
 				PointDB["VEROX"].position,
 				PointDB["SPR"].position
 			],
-			runway: 23,
+			runway: 22,
 			type: "star"
 		},
 
@@ -139,7 +139,7 @@ function registerStar() {
 				PointDB["VADAR"].position,
 				PointDB["SPR"].position
 			],
-			runway: 23,
+			runway: 22,
 			type: "star"
 		},
 
@@ -149,7 +149,7 @@ function registerStar() {
 				PointDB["NEMOS"].position,
 				PointDB["GG514"].position
 			],
-			runway: 05,
+			runway: 04,
 			type: "star"
 		},
 
@@ -159,7 +159,7 @@ function registerStar() {
 				PointDB["VADAR"].position,
 				PointDB["GG514"].position
 			],
-			runway: 05,
+			runway: 04,
 			type: "star"
 		},
 
@@ -169,7 +169,7 @@ function registerStar() {
 				PointDB["VADAR"].position,
 				PointDB["GG512"].position
 			],
-			runway: 05,
+			runway: 04,
 			type: "star"
 		},
 
@@ -179,7 +179,7 @@ function registerStar() {
 				PointDB["CBY"].position,
 				PointDB["GG502"].position
 			],
-			runway: 23,
+			runway: 22,
 			type: "star"
 		},
 
@@ -189,7 +189,7 @@ function registerStar() {
 				PointDB["CBY"].position,
 				PointDB["INDIS"].position
 			],
-			runway: 05,
+			runway: 04,
 			type: "star"
 		},
 	];
@@ -233,7 +233,7 @@ function registerSid() {
 				PointDB["GG605"].position,
 				PointDB["ODIKI"].position
 			],
-			runway: 05,
+			runway: 04,
 			type: "sid"
 		},
 
@@ -243,7 +243,7 @@ function registerSid() {
 				PointDB["GG604"].position,
 				PointDB["ESAPI"].position
 			],
-			runway: 05,
+			runway: 04,
 			type: "sid"
 		},
 
@@ -255,7 +255,7 @@ function registerSid() {
 				},
 				PointDB["ODIKI"].position
 			],
-			runway: 23,
+			runway: 22,
 			type: "sid"
 		},
 
@@ -267,7 +267,7 @@ function registerSid() {
 				},
 				PointDB["ESAPI"].position
 			],
-			runway: 23,
+			runway: 22,
 			type: "sid"
 		},
 
@@ -315,7 +315,7 @@ function registerSid() {
 				PointDB["SALEV"].position,
 				PointDB["CBY"].position
 			],
-			runway: 05,
+			runway: 04,
 			type: "sid"
 		},
 
@@ -327,7 +327,7 @@ function registerSid() {
 				},
 				PointDB["CBY"].position
 			],
-			runway: 23,
+			runway: 22,
 			type: "sid"
 		},
 
@@ -340,7 +340,7 @@ function registerSid() {
 				PointDB["KELUK"].position,
 				PointDB["DIPIR"].position
 			],
-			runway: 23,
+			runway: 22,
 			type: "sid"
 		},
 
@@ -353,7 +353,7 @@ function registerSid() {
 				PointDB["KONIL"].position,
 				PointDB["SOSAL"].position
 			],
-			runway: 23,
+			runway: 22,
 			type: "sid"
 		},
 
@@ -365,7 +365,7 @@ function registerSid() {
 				PointDB["MOLUS"].position,
 				PointDB["SOSAL"].position
 			],
-			runway: 23,
+			runway: 22,
 			type: "sid"
 		},
 
@@ -376,7 +376,7 @@ function registerSid() {
 				PointDB["MOLUS"].position,
 				PointDB["SOSAL"].position
 			],
-			runway: 05,
+			runway: 04,
 			type: "sid"
 		},
 
@@ -389,7 +389,7 @@ function registerSid() {
 				PointDB["KOVIM"].position,
 				PointDB["SIROD"].position
 			],
-			runway: 05,
+			runway: 04,
 			type: "sid"
 		},
 
@@ -402,7 +402,7 @@ function registerSid() {
 				PointDB["LEGVO"].position,
 				PointDB["ARBOS"].position
 			],
-			runway: 05,
+			runway: 04,
 			type: "sid"
 		},
 	];

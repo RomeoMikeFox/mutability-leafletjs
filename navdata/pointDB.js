@@ -10,14 +10,14 @@ function registerNavaidsFixes() {
 			position: {lat: 46.024444, lng: 5.797000},
 			type: "fix",
 			title: 'INDIS',
-			runway: 05
+			runway: 04
 		},
 
 		{
 			position: {lat: 46.061231, lng: 5.850456},
 			type: "fix",
 			title: 'BELKA',
-			runway: 05
+			runway: 04
 		},
 
 		{
@@ -157,7 +157,7 @@ function registerNavaidsFixes() {
 			position: {lat: 46.727500, lng: 6.573333},
 			type: "fix",
 			title: 'VEROX',
-			runway: 23
+			runway: 22
 		},
 		
 		{
@@ -220,7 +220,7 @@ function registerNavaidsFixes() {
 			position: {lat: 45.817139, lng: 5.980028},
 			type: "fix",
 			title: 'LINNA',
-			runway: 05
+			runway: 04
 		},
 		
 		{
@@ -262,14 +262,14 @@ function registerNavaidsFixes() {
 			position: {lat: 46.235306, lng: 5.899297},
 			type: "fix",
 			title: 'KERAD',
-			runway: 05
+			runway: 04
 		},
 		
 		{
 			position: {lat: 46.094722, lng: 6.101944},
 			type: "fix",
 			title: 'PITOM',
-			runway: 05
+			runway: 04
 		},
 		
 		{
@@ -290,21 +290,21 @@ function registerNavaidsFixes() {
 			position: {lat: 46.555556, lng: 5.685556},
 			type: "fix",
 			title: 'KELUK',
-			runway: 23
+			runway: 22
 		},
 		
 		{
 			position: {lat: 46.669167, lng: 5.593056},
 			type: "fix",
 			title: 'DIPIR',
-			runway: 23
+			runway: 22
 		},
 		
 		{
 			position: {lat: 46.360000, lng: 6.530556},
 			type: "fix",
 			title: 'TINAM',
-			runway: 23
+			runway: 22
 		},
 		
 		{
@@ -325,42 +325,42 @@ function registerNavaidsFixes() {
 			position: {lat: 46.356639, lng: 6.176250},
 			type: "fix",
 			title: 'DEREM',
-			runway: 23
+			runway: 22
 		},
 		
 		{
 			position: {lat: 46.568444, lng: 6.458361},
 			type: "fix",
 			title: 'KONIL',
-			runway: 23
+			runway: 22
 		},
 		
 		{
 			position: {lat: 46.614611, lng: 6.206333},
 			type: "fix",
 			title: 'KOVIM',
-			runway: 05
+			runway: 04
 		},
 		
 		{
 			position: {lat: 46.726944, lng: 6.019444},
 			type: "fix",
 			title: 'SIROD',
-			runway: 05
+			runway: 04
 		},
 		
 		{
 			position: {lat: 46.667928, lng: 6.285567},
 			type: "fix",
 			title: 'LEGVO',
-			runway: 05
+			runway: 04
 		},
 		
 		{
 			position: {lat: 46.984167, lng: 6.026389},
 			type: "fix",
 			title: 'ARBOS',
-			runway: 05
+			runway: 04
 		},
 
 		{
@@ -439,7 +439,7 @@ function registerNavaidsFixes() {
 			position: {lat: 46.095711, lng: 5.696886},
 			type: "wpt",
 			title: 'GG503',
-			runway: 05
+			runway: 04
 		},
 
 		{
@@ -460,42 +460,42 @@ function registerNavaidsFixes() {
 			position: {lat: 46.298203, lng: 6.402228},
 			type: "wpt",
 			title: 'GG525',
-			runway: 23
+			runway: 22
 		},
 
 		{
 			position: {lat: 46.440847, lng: 6.199875},
 			type: "wpt",
 			title: 'GG507',
-			runway: 23
+			runway: 22
 		},
 
 		{
 			position: {lat: 46.116328, lng: 6.067169},
 			type: "wpt",
 			title: 'GG602',
-			runway: 23
+			runway: 22
 		},
 
 		{
 			position: {lat: 46.268611, lng: 6.057778},
 			type: "wpt",
 			title: 'GG603',
-			runway: 23
+			runway: 22
 		},
 
 		{
 			position: {lat: 46.201864, lng: 6.308756},
 			type: "wpt",
 			title: 'GG604',
-			runway: 05
+			runway: 04
 		},
 
 		{
 			position: {lat: 45.975892, lng: 6.291633},
 			type: "wpt",
 			title: 'GG605',
-			runway: 05
+			runway: 04
 		},
 
 		// Navaids
@@ -539,7 +539,7 @@ function registerNavaidsFixes() {
 			position: {lat: 46.408694, lng: 6.24425},
 			type: "ndb",
 			title: 'GLA',
-			runway: 23
+			runway: 22
 		},
 
 		{

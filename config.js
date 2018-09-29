@@ -53,5 +53,5 @@ ShowAircraftIcon = true;
 HistoryStep = 3;
 
 // Runway in use
-DefaultRunwayInUse = 23;
+DefaultRunwayInUse = 22;
 RunwayInUse = 0;
