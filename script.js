@@ -859,7 +859,7 @@ function resetMap() {
 }
 
 function switchRunway() {
-	RunwayInUse = RunwayInUse == 5 ? 23 : 5;
+	RunwayInUse = RunwayInUse == 4 ? 22 : 4;
 	localStorage['Runway'] = RunwayInUse;
 	LeafletMap.remove();
 	initialize_map();
