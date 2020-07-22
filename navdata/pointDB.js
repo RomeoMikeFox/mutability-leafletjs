@@ -498,6 +498,20 @@ function registerNavaidsFixes() {
 			runway: 04
 		},
 
+		{
+			position: {lat: 46.344722, lng: 6.265944},
+			type: "wpt",
+			title: 'GG808',
+			runway: 22
+		},
+
+		{
+			position: {lat: 46.378583, lng: 6.315972},
+			type: "wpt",
+			title: 'GG811',
+			runway: 22
+		},
+
 		// Navaids
 		
 		{
